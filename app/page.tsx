@@ -59,9 +59,10 @@ export default function Home() {
   }
 
   function getWhatsAppLink(request: RequestItem) {
-    const text = `Hallo ${request.name}, danke für deine Anfrage zu ${request.service}.`;
-    return `https://wa.me/${request.phone}?text=${encodeURIComponent(text)}`;
-  }
+  return `https://wa.me/491708170957?text=${encodeURIComponent(
+    `Hey 👋 neue Anfrage:\n\nName: ${request.name}\nTelefon: ${request.phone}\nService: ${request.service}`
+  )}`;
+}
 
   async function deleteRequest(id?: number) {
     if (!id) return;
