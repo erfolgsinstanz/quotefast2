@@ -49,7 +49,7 @@ export default function Home() {
 
   function getWhatsAppLink(request: RequestItem) {
     return `https://wa.me/491708170957?text=${encodeURIComponent(
-      `Hey 👋 neue Anfrage:\n\nName: ${request.name}\nTelefon: ${request.phone}\nService: ${request.service}`
+      `Hey :) neue Anfrage:\n\nName: ${request.name}\nTelefon: ${request.phone}\nService: ${request.service}`
     )}`;
   }
 
