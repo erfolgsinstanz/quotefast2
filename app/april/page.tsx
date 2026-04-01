@@ -29,7 +29,7 @@ export default function AprilPage() {
           position: 'relative',
           zIndex: 2,
           textAlign: 'center',
-          padding: '20px',
+          padding: '40px',
           animation: 'zoomIn 1.2s ease-out',
         }}
       >
@@ -39,7 +39,7 @@ export default function AprilPage() {
             margin: 0,
             lineHeight: 0.9,
             fontWeight: 900,
-            letterSpacing: '4px',
+            letterSpacing: '40px',
             color: '#ffd700',
             textTransform: 'uppercase',
             textShadow:
@@ -59,7 +59,7 @@ export default function AprilPage() {
             textShadow: '0 0 12px rgba(0,0,0,0.8)',
           }}
         >
-          😄 
+          REINGELEGT
         </p>
       </div>
 
