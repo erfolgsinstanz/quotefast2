@@ -55,7 +55,7 @@ export default function AprilPage() {
         >
           APRIL
           <br />
-          SCHERZ
+          APRIL
         </h1>
 
         <p
@@ -66,7 +66,7 @@ export default function AprilPage() {
             textShadow: '0 0 15px rgba(0,0,0,0.9)',
           }}
         >
-          😂 Du wurdest komplett hops genommen
+          😂 DU WURDEST HOPS GENOMMEN
         </p>
       </div>
 
