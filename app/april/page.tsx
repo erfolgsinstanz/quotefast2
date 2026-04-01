@@ -4,7 +4,88 @@ export default function AprilPage() {
       style={{
         minHeight: '100vh',
         backgroundImage:
+          "url('export default function AprilPage() {
+  return (
+    <div
+      style={{
+        minHeight: '100vh',
+        backgroundImage:
           "url('https://images.unsplash.com/photo-1612832021073-3c38a9c6db9f?auto=format&fit=crop&w=2000&q=100')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        position: 'relative',
+        overflow: 'hidden',
+        fontFamily: 'Arial, sans-serif',
+      }}
+    >
+      {/* dunkler Overlay für Kontrast */}
+      <div
+        style={{
+          position: 'absolute',
+          inset: 0,
+          background:
+            'radial-gradient(circle, rgba(255,200,0,0.2) 0%, rgba(0,0,0,0.85) 70%)',
+        }}
+      />
+
+      {/* Inhalt */}
+      <div
+        style={{
+          position: 'relative',
+          zIndex: 2,
+          textAlign: 'center',
+          animation: 'zoomIn 1s ease-out',
+        }}
+      >
+        <h1
+          style={{
+            fontSize: 'clamp(80px, 20vw, 260px)',
+            margin: 0,
+            lineHeight: 0.8,
+            fontWeight: 900,
+            letterSpacing: '6px',
+            color: '#ffd700',
+            textTransform: 'uppercase',
+            textShadow:
+              '0 0 20px rgba(255,215,0,1), 0 0 50px rgba(255,140,0,0.8), 0 0 100px rgba(255,140,0,0.6)',
+          }}
+        >
+          APRIL
+          <br />
+          SCHERZ
+        </h1>
+
+        <p
+          style={{
+            marginTop: '30px',
+            fontSize: 'clamp(24px, 4vw, 48px)',
+            color: 'white',
+            textShadow: '0 0 15px rgba(0,0,0,0.9)',
+          }}
+        >
+          😂 Du wurdest komplett hops genommen
+        </p>
+      </div>
+
+      {/* Animation */}
+      <style>{`
+        @keyframes zoomIn {
+          0% {
+            transform: scale(0.5);
+            opacity: 0;
+          }
+          100% {
+            transform: scale(1);
+            opacity: 1;
+          }
+        }
+      `}</style>
+    </div>
+  );
+}')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         display: 'flex',
