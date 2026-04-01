@@ -48,7 +48,7 @@ export default function AprilPage() {
         >
           April
           <br />
-          Scherz
+          April
         </h1>
 
         <p
@@ -59,7 +59,7 @@ export default function AprilPage() {
             textShadow: '0 0 12px rgba(0,0,0,0.8)',
           }}
         >
-          😄 Reingefallen.
+          😄 .
         </p>
       </div>
 
